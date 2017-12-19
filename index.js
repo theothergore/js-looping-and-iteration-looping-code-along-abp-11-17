@@ -13,9 +13,7 @@ function tailsNeverFails(){
   return Math.random() >= 0.5;
 }
 
-while (number >= 0.5) {
-  console.log("You got 2 in a row!");
-}
+
 
 
 
