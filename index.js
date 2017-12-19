@@ -7,13 +7,13 @@ function printBadges(names){
  return names;
 }
 
-var number = 0
 
 function tailsNeverFails(){
+  let number = 0;
     while (Math.random() >= 0.5){
-      number += 1
-      console.log("You got ${number} in a row!")
+      number++;
     }
+    console.log(`You got ${number} in a row`);
     console.log("This is working...")
 }
 
@@ -25,6 +25,14 @@ function tailsNeverFails(){
 //
 // while (number >= 0.5) {
 //   console.log("You got 2 in a row!");
+// }
+
+// function tailsNeverFails(){
+//     while (Math.random() >= 0.5){
+//       number += 1
+//       console.log("You got ${number++} in a row!")
+//     }
+//     console.log("This is working...")
 // }
 
 
