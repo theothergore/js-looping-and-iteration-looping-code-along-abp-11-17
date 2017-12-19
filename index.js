@@ -7,10 +7,13 @@ function printBadges(names){
  return names;
 }
 
-const number = 8
+const number = 0
 
 function tailsNeverFails(){
-  return Math.random() >= 0.5;
+    while (Math.random >= 0.5){
+      let number += 1
+    console.log("You got ${number} in a row!")
+    }
 }
 
 
@@ -18,8 +21,10 @@ function tailsNeverFails(){
 
 
 
-
-
+// 
+// while (number >= 0.5) {
+//   console.log("You got 2 in a row!");
+// }
 
 
 // // const number = 8
